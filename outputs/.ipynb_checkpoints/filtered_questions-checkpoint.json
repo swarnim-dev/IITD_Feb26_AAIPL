@@ -1,0 +1,194 @@
+[
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All cats are dogs\nStatement II: Some dogs are birds\nStatement III: No bird is a fish\nConclusions I: Some cats are birds\nConclusion II: Some dogs being fish is a possibility",
+        "choices": [
+            "A) If only conclusion I follows",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "D",
+        "explanation": "No direct link between cats and birds. Dogs cannot be fish as no bird is a fish."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rajesh says, \u201cHe is the brother of my father\u2019s only daughter.\u201d How is Rajesh related to him?",
+        "choices": [
+            "A) Son",
+            "B) Nephew",
+            "C) Brother",
+            "D) Cousin"
+        ],
+        "answer": "B",
+        "explanation": "Rajesh's father's only daughter is Rajesh's sister. The brother of Rajesh's sister is Rajesh himself, making the person he refers to his Nephew."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All books are pens\nStatement II: Some pens are pencils\nStatement III: No pencil is a notebook\nConclusions I: Some notebooks are not books\nConclusion II: Some books are pencils",
+        "choices": [
+            "A) If only conclusion I follows",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "C",
+        "explanation": "Books are pens, and some pens are pencils, making some books pencils possible. No pencil is a notebook, implying some notebooks are not books."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All cats are dogs\nStatement II: Some dogs are birds\nStatement III: All birds are fish\nConclusions I: Some fish are cats\nConclusion II: Some dogs are fish",
+        "choices": [
+            "A) If only conclusion I follows",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "B",
+        "explanation": "While some dogs being fish is true, there's no direct link proving some fish are cats."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a circular market, five vendors A, B, C, D, E sell fruits. A sells apples, B sells bananas, C sells cherries, D sells dates, E sells elderberries. A faces B, B faces C, C faces D, D faces E, E faces A. If A swaps places with the vendor selling dates, who will be to the immediate right of the new position of A?",
+        "choices": [
+            "A) C",
+            "B) D",
+            "C) E",
+            "D) B"
+        ],
+        "answer": "D",
+        "explanation": "After A swaps with D, A now sells dates and faces E. To the immediate right of A (new position) is B."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All cities in Country X are coastal\nStatement II: Some coastal cities are in Country Y\nStatement III: No city in Country Z is coastal\nConclusions I: Some cities in Country Y are not in Country Z\nConclusion II: All cities in Country X are in Country Y",
+        "choices": [
+            "A) If only conclusion I follows",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "A",
+        "explanation": "Conclusion I is valid as some coastal cities in Y may not be in Z. Conclusion II is invalid as no direct link exists between X and Y."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "1A2, 3B4, 5C6, 7D8, _____",
+        "choices": [
+            "A) 9E10",
+            "B) 9F9",
+            "C) 8E9",
+            "D) 9E9"
+        ],
+        "answer": "D",
+        "explanation": "The series alternates between odd numbers increasing by 2 and even numbers staying constant. Letters progress alphabetically. Hence, 9E9."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rajesh says, \u201cHe is the brother of my mother\u2019s only sibling.\u201d How is Rajesh related to him?",
+        "choices": [
+            "A) Nephew",
+            "B) Son",
+            "C) Brother",
+            "D) Cousin"
+        ],
+        "answer": "C",
+        "explanation": "Rajesh's mother has an only sibling who is her brother. Hence, the man is Rajesh's uncle, making Rajesh his nephew. However, the question asks how Rajesh is related to him, which makes Rajesh his nephew's brother."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "X1Z, V3Y, T5W, R7U, _____",
+        "choices": [
+            "A) P9S",
+            "B) Q8S",
+            "C) P8T",
+            "D) Q9R"
+        ],
+        "answer": "A",
+        "explanation": "The first letter decreases by 2, the number increases by 2, and the last letter decreases by 2. Hence P9S."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "P9R, Q8S, T7U, V6W, _____",
+        "choices": [
+            "A) X5Y",
+            "B) X5X",
+            "C) Y5Z",
+            "D) W5V"
+        ],
+        "answer": "B",
+        "explanation": "The first letter sequence skips one letter each time: P, Q, T, V, X. The second number decreases by 1 each time: 9, 8, 7, 6, 5. The third letter sequence skips two letters each time: R, S, U"
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All phones are gadgets\nStatement II: Some gadgets are chargers\nStatement III: No charger is a battery\nConclusions I: Some batteries are phones\nConclusion II: Some gadgets are not batteries",
+        "choices": [
+            "A) If only conclusion I follows",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "B",
+        "explanation": "Phones are gadgets, but no charger is a battery, making II true. No direct link between phones and batteries makes I false."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "X1Y, V3W, T5U, R7S, _____",
+        "choices": [
+            "A) P9T",
+            "B) Q9T",
+            "C) P8T",
+            "D) Q8T"
+        ],
+        "answer": "B",
+        "explanation": "The first letter decreases by 2, the number increases by 2, and the last letter decreases by 2. Hence Q9T."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All drones are gadgets\nStatement II: Some gadgets are phones\nStatement III: No phone is a tablet\nConclusions I: Some tablets are drones\nConclusion II: Some gadgets are not tablets",
+        "choices": [
+            "A) If only conclusion I follows",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "B",
+        "explanation": "No direct link shows tablets are drones. Gadgets overlap phones, proving some gadgets are not tablets."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rajesh says, \u201cHe is the son of my mother\u2019s only sibling.\u201d How is Rajesh related to him?",
+        "choices": [
+            "A) Nephew",
+            "B) Cousin",
+            "C) Uncle",
+            "D) Brother"
+        ],
+        "answer": "A",
+        "explanation": "Rajesh's mother's only sibling is his aunt. The son of Rajesh's aunt is his nephew. Thus, Rajesh is the nephew's uncle, making him the nephew."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All cats are dogs\nStatement II: Some dogs are birds\nStatement III: All birds are fish\nConclusions I: Some fish are cats\nConclusion II: Some dogs being fish is a possibility",
+        "choices": [
+            "A) If only conclusion I follows",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "B",
+        "explanation": "While some dogs being fish is possible, no direct link shows fish are cats."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rajesh says, \u201cHe is the only son of my mother\u2019s only daughter.\u201d How is Rajesh related to him?",
+        "choices": [
+            "A) Uncle",
+            "B) Nephew",
+            "C) Cousin",
+            "D) Son"
+        ],
+        "answer": "B",
+        "explanation": "Rajesh's 'mother's only daughter' is Rajesh's sister. The 'only son' of Rajesh's sister is Rajesh's nephew. Thus, Rajesh is the nephew's uncle, making him the nephew of the person in question."
+    }
+]

@@ -1,0 +1,738 @@
+[
+  {
+    "question_id": 1,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the son of my mother\u2019s only sibling.\u201d How is Rajesh related to him?",
+    "choices": [
+      "A) Uncle",
+      "B) Brother",
+      "C) Cousin",
+      "D) Nephew"
+    ],
+    "expected_answer": "D",
+    "generated_answer": "To determine how Rajesh is related to \"him,\" we need to break down the statement provided by Rajesh.\n\nRajesh's statement: \"He is **the son** of my **mother\u2019s only sister**.\"\n\nLet us analyze step-by-step:\n- The phrase \"*my mother\u2019s*\u201d indicates that it refers back to Rajesh.\n- *Mother\u2019s only* means there is one",
+    "generation_time": 16.27346658706665,
+    "is_correct": true,
+    "within_time_limit": false
+  },
+  {
+    "question_id": 2,
+    "topic": "Mixed Series (Alphanumeric)",
+    "question": "XZ1, YW2, VT3, US4, ____",
+    "choices": [
+      "A) TR5",
+      "B) SQ5",
+      "C) TP5",
+      "D) SR5"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "To solve the sequence problem \"XZ1\", \"YW2\", \"VT3\", \"US4\", we need to analyze both the letters and numbers separately.\n\n### Step-by-Step Analysis:\n\n#### Letters Pattern:\nLet's look at how the first letter changes from one pair to another.\n- From **X** (first term) to **Y** (second term): +1 position on",
+    "generation_time": 1.670837163925171,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 3,
+    "topic": "Mixed Series (Alphanumeric)",
+    "question": "1A2, 3B4, 5C6, 7D8, _____",
+    "choices": [
+      "A) 9F10",
+      "B) 9E9",
+      "C) 9E10",
+      "D) 9F9"
+    ],
+    "expected_answer": "C",
+    "generated_answer": "To solve the sequence problem \"1A_2, _B__4, ___C___6, ____D____8\", we need to identify patterns both numerically and alphabetically.\n\n### Numerical Pattern Analysis:\n- The numbers follow a simple pattern where odd positions (first digit of pairs) increase by 2.\n    - First position: \\(1\\)\n    - Third position: \\",
+    "generation_time": 1.6795892715454102,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 4,
+    "topic": "Mixed Series (Alphanumeric)",
+    "question": "P1R, Q3T, S5V, U7X, _____",
+    "choices": [
+      "A) W9Z",
+      "B) V9Y",
+      "C) X9Z",
+      "D) W8Z"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "To solve the problem, we need to analyze both the letters and numbers in the given sequence.\n\nThe pattern is as follows:\n- **Letters**: The first letter of each term increases by 2 positions alphabetically.\n    - P -> R (P + 2 = R)\n    - R -> T (R + 4 = T; note that after skipping one position between terms, it's",
+    "generation_time": 1.7099909782409668,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 5,
+    "topic": "Syllogisms",
+    "question": "Statement I: Some fruits are expensive\nStatement II: All expensive items are gold-plated\nStatement III: Some gold-plated items are jewelry\nConclusion I: Some jewelry are fruits\nConclusion II: Some fruits are gold-plated",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Let's analyze the statements step by step to determine which conclusions logically follow.\n\n**Statements:**\n- **I:** Some fruits (Fruits \u2286 F) are expensive.\n  - This means there is a subset of fruits that fall into the category \"expensive.\"\n  \n- **II:** All expensive things (Expensive \u2286 E) are gold plated.\n  \u2013 Every item classified as expensive",
+    "generation_time": 1.702587366104126,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 6,
+    "topic": "Mixed Series (Alphanumeric)",
+    "question": "1A2, 3B4, 5C6, 7D8, _____",
+    "choices": [
+      "A) 9E9",
+      "B) 9F9",
+      "C) 9E8",
+      "D) 9F8"
+    ],
+    "expected_answer": "A",
+    "generated_answer": "To solve the sequence problem, let's analyze the pattern step by step.\n\nThe given series is: \n- 1 A 2,\n- 3 B 4,\n- ... and so on until ...\n- 7 D 8,\n\nWe can break it down into three parts for analysis:\n1) The first digit increases sequentially (1 -> 3 -> 5 -> 7).\n2",
+    "generation_time": 1.7283565998077393,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 7,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the brother of my mother\u2019s only sibling.\u201d How is Rajesh related to the man?",
+    "choices": [
+      "A) Nephew",
+      "B) Son",
+      "C) Cousin",
+      "D) Uncle"
+    ],
+    "expected_answer": "C",
+    "generated_answer": "Let's break down the statement step-by-step.\n\nRajesh states that \"he\" (the person being referred to as 'he') is the **brother** of his mother's **only sibling**.\n- This means Rajesh has a maternal aunt or uncle because he mentions it as his mother\u2019s *sibling* and specifies there is just one such relative (*only sibling*).\n  \n",
+    "generation_time": 1.714022159576416,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 8,
+    "topic": "Syllogisms",
+    "question": "Statement I: Some fruits are priced at $5\nStatement II: All bananas are priced at $5\nStatement III: Some bananas are priced at $3\nConclusion I: Some fruits are priced at $3\nConclusion II: All bananas are fruits",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Let's analyze the statements and conclusions step-by-step using logical reasoning.\n\n**Statements given:**\n- **I:** Some fruits (let\u2019s denote as Fruits set = A) are priced \\$5.\n- **II:** All bananas (Bananas set = B) are pricesd \\$5, which means every banana is part of those that cost \\$5 according to statement 1.\n- ***",
+    "generation_time": 1.714806318283081,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 9,
+    "topic": "Syllogisms",
+    "question": "Statement I: Some fruits are expensive\nStatement II: All expensive items are gold-plated\nStatement III: Some gold-plated items are jewelry\nConclusion I: Some jewelry are fruits\nConclusion II: Some expensive items are fruits",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Let's analyze the statements and conclusions step by step.\n\n**Statements Analysis:**\n- **I:** \"Some fruits are inexpensive.\"\n  - This means there exists a subset of fruits that fall into the category of being expensive.\n  \n- **II:** \"All expensive items (including those mentioned as some fruits from statement I) are gold plated.\" \n  - So, any fruit which is expensive will",
+    "generation_time": 1.631824254989624,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 10,
+    "topic": "Syllogisms",
+    "question": "Statement I: All books are pens\nStatement II: Some pens are pencils\nStatement III: All pencils are erasers\nConclusions I: Some erasers are books\nConclusion II: Some books are pencils",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "D",
+    "generated_answer": "Let's analyze the given statements step by step.\n\n**Statements:**\n- **I:** All books (Books \u2286 Pens)\n- **II:** Some pens (Pens \u2229 Pencils \u2260 \u00d8, meaning there is some overlap between pens and pencils but not all pens or pencils necessarily belong to either category exclusively.)\n- **III:** All pencils (Pencils \u2286 Erasers)\n\n",
+    "generation_time": 1.6511361598968506,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 11,
+    "topic": "Syllogisms",
+    "question": "Statement I: All books are pens\nStatement II: Some pens are pencils\nStatement III: All pencils are erasers\nConclusions I: Some erasers are books\nConclusion II: Some pens are erasers",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Let's analyze the given statements step by step.\n\n**Statements:**\n- **I:** All books (B) are pens (P). This can be written as \\( B \\subseteq P \\).\n- **II:** Some pens (S) are pencils (E). This means there is a subset of pens that overlaps with pencils, but not all pens need to be pencils.\n- **III:**",
+    "generation_time": 1.6772680282592773,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 12,
+    "topic": "Syllogisms",
+    "question": "Statement I: All books are pens\nStatement II: Some pens are pencils\nStatement III: No pencil is a ruler\nConclusions I: Some rulers are not books\nConclusion II: Some books are pencils",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "A",
+    "generated_answer": "Let's analyze the given statements one by one to determine which conclusions logically follow.\n\n**Statements:**\n- **I:** All books (B) are pens (P). This can be written as \\( B \\subseteq P \\).\n- **II:** Some pens (S) are pencils (Q), meaning there exists some overlap between sets of Pens and Pencils.\n  - We write it symbol",
+    "generation_time": 1.6749601364135742,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 13,
+    "topic": "Mixed Series (Alphanumeric)",
+    "question": "PQR1, STU2, VWX3, YZA4, _____",
+    "choices": [
+      "A) ABC5",
+      "B) BCD5",
+      "C) DEF5",
+      "D) CDE5"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "To solve the sequence problem, we need to identify a pattern that applies consistently across all given terms.\n\nGiven Sequence: \nPQR1 -> STU 2 -> VWX 3 -> YZA 4 -> ?\n\nFirstly, let's break down and analyze both parts of each term separately - letters and numbers.\n- The letter part (e.g., \"PQR\", \"STU\")",
+    "generation_time": 1.6347904205322266,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 14,
+    "topic": "Mixed Series (Alphanumeric)",
+    "question": "PQR1, STU2, VWX3, YZA4, _____",
+    "choices": [
+      "A) BCD5",
+      "B) ABC5",
+      "C) DEF5",
+      "D) CDE5"
+    ],
+    "expected_answer": "D",
+    "generated_answer": "To solve the sequence problem, we need to analyze both the letters and numbers given.\n\nFirstly, let's look at how the letter sequences progress:\n- The first set is \"PQR\", which follows a pattern of advancing by one alphabetical position.\n- Then comes \"STU\" (S -> T -> U).\n- Next is \"VWX\".\n- Finally, it ends with \"YZA",
+    "generation_time": 1.6302297115325928,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 15,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the only son of my mother\u2019s only sister.\u201d How is Rajesh related to the man?",
+    "choices": [
+      "A) Uncle",
+      "B) Nephew",
+      "C) Cousin",
+      "D) Son"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "To solve this problem, let's break down the relationship described by Rajesh.\n\nRajesh states that \"he\" (the person being referred to) is his mother's only sister's only son.\n- This means we need to identify who \"he\"is relative to Rajesh and then determine how he relates to a given male individual (\"man\").\n\nLet's map out these relationships step-by-step:\n",
+    "generation_time": 1.6562187671661377,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 16,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the son of my mother\u2019s only sibling.\u201d How is Rajesh related to him?",
+    "choices": [
+      "A) Nephew",
+      "B) Brother",
+      "C) Uncle",
+      "D) Cousin"
+    ],
+    "expected_answer": "C",
+    "generated_answer": "To solve this problem, let's break down what Rajesh said and analyze his relationship with \"him.\"\n\nRajesh states that he (the person speaking) is the brother or sister of someone else's mother because they mention their mother's *only* sibling.\n\nLet's consider who \"he\" refers to here:\n- If Rajesh mentions another male as being the son (\"he\") of his",
+    "generation_time": 1.6481809616088867,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 17,
+    "topic": "Syllogisms",
+    "question": "Statement I: All dogs are cats\nStatement II: Some cats are birds\nStatement III: No bird is a fish\nConclusions I: Some dogs are birds\nConclusion II: No dog is a fish",
+    "choices": [
+      "A) If only conclusion II follows",
+      "B) If only conclusion I follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "A",
+    "generated_answer": "Let's analyze the statements and conclusions step by step.\n\n**Statements:**\n- **I:** All dogs (D) are cats (C). This can be written as \\( D \\subseteq C \\).\n- **II:** Some cats (some members of set C) are birds (B), which means there exists some overlap between sets C and B, but not necessarily all.\n- **III:**",
+    "generation_time": 1.682668924331665,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 18,
+    "topic": "Mixed Series (Alphanumeric)",
+    "question": "1A2, 3B4, 5C6, 7D8, ___",
+    "choices": [
+      "A) 9E9",
+      "B) 9F9",
+      "C) 9E7",
+      "D) 9G9"
+    ],
+    "expected_answer": "C",
+    "generated_answer": "To solve the sequence problem \"1A_2, _B_, __C__, __D__\", let's analyze it step by step.\n\nThe pattern seems to be alternating numbers and letters with a consistent structure of two digits followed by one letter and then another digit (e.g., 1_A_2).\n\nLet\u2019s break down what we see for clarity:\n- The first part is always increasing",
+    "generation_time": 1.7188119888305664,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 19,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the brother of my mother\u2019s only daughter.\u201d How is Rajesh related to the man?",
+    "choices": [
+      "A) Son",
+      "B) Nephew",
+      "C) Cousin",
+      "D) Brother"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Let's break down the statement given by Rajesh step-by-step.\n\nRajesh states, \"He is **the** brother of *my* mother's only daughter.\"\n\n- First part: \"*My* mother\" refers to Rajesh's own mother.\n- Second part: The phrase \"mother's only\u5973\u513f\u662f\u96f7\u6770\u4ec0\u7684\u6bcd\u4eb2\u7684\u552f\u4e00\u5973\u513f\uff0c\u90a3\u4e48\u8fd9\u4e2a\u201c\u4ed6\u201d\uff08\u6307\u4ee3",
+    "generation_time": 1.6964287757873535,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 20,
+    "topic": "Mixed Series (Alphanumeric)",
+    "question": "PQR3, STU5, VWX7, YZA9, _____",
+    "choices": [
+      "A) BCD11",
+      "B) ABC11",
+      "C) CAB11",
+      "D) BCA11"
+    ],
+    "expected_answer": "C",
+    "generated_answer": "To solve the problem, we need to identify any patterns or rules governing how letters and numbers progress from one term to another.\n\n### Observations on Letters (PQRYSTVWXYAZ):\n- The sequence of letters is advancing alphabetically by skipping two positions.\n  - From 'P' to 'R': skip Q ('P', 'Q', 'R')\n  - Then it jumps",
+    "generation_time": 1.7175629138946533,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 21,
+    "topic": "Mixed Series (Alphanumeric)",
+    "question": "1A2, 3B4, 5C6, 7D8, _____",
+    "choices": [
+      "A) 9F10",
+      "B) 9E10",
+      "C) 9G10",
+      "D) 9E9"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "To solve the sequence problem \"1A_2, _B__4, ___C___6, ____D____8\", we need to identify any patterns or rules governing both numbers and letters.\n\n### Observations on Numbers:\n- The first number increases by +2 (i.e., from 1 to 3, then 5, etc.)\n- Similarly, the second number also follows a",
+    "generation_time": 1.7283737659454346,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 22,
+    "topic": "Syllogisms",
+    "question": "Statement I: All doctors are surgeons\nStatement II: Some surgeons are nurses\nStatement III: All nurses are paramedics\nConclusions I: Some paramedics are doctors\nConclusion II: Some surgeons are paramedics",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Let's analyze the statements and conclusions step by step.\n\n**Statements Analysis:**\n- **I:** All doctors (D) are surgeons (S). This means \\( D \\subseteq S \\).\n- **II:** Some surgeons (from statement I, we know they include all doctors plus possibly others) are nurses (N), i.e., there is some overlap between S and N.\n- **III",
+    "generation_time": 1.7127370834350586,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 23,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the brother of my mother\u2019s only sibling.\u201d How is Rajesh related to the man?",
+    "choices": [
+      "A) Nephew",
+      "B) Son",
+      "C) Cousin",
+      "D) Brother"
+    ],
+    "expected_answer": "A",
+    "generated_answer": "To solve this problem, let's break down what Rajesh said and determine how he relates to \"the man\" (who we'll identify based on context).\n\nRajesh states that \"he is the **brother** of my *mother\u2019s* ***only*** *sibling*\" \n\nLet's define who \"my mother\u2019s *only* sibling\" refers to first.\n- If a person",
+    "generation_time": 1.710038423538208,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 24,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the brother of my mother\u2019s only sibling.\u201d How is Rajesh related to him?",
+    "choices": [
+      "A) Nephew",
+      "B) Brother",
+      "C) Cousin",
+      "D) Son"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "To determine how Rajesh is related to \"him\" (the person referred to as 'he' in Rajesh's statement), let us break down and analyze the information given.\n\nRajesh states that he has a relationship with someone who is described as \"my mother's only sibling.\" This means we need to identify what kind of relative it would be for Rajesh if they were his mother's",
+    "generation_time": 1.7155907154083252,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 25,
+    "topic": "Syllogisms",
+    "question": "Statement I: All dogs are cats\nStatement II: Some cats are birds\nStatement III: All birds are fish\nConclusions I: Some fish are dogs\nConclusion II: Some cats are fish",
+    "choices": [
+      "A) If only conclusion II follows",
+      "B) If only conclusion I follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "A",
+    "generated_answer": "Let's analyze the statements and conclusions step by step.\n\n**Statements:**\n- **I:** All dogs (D) are cats (C).\n  - This can be written as \\( D \\subseteq C \\).\n\n- **II:** Some cats (some elements of set C) are birds (B).\n  \u2013 There is overlap between sets, but not all cats or all birds necessarily.\n  \n-",
+    "generation_time": 1.7094459533691406,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 26,
+    "topic": "Mixed Series (Alphanumeric)",
+    "question": "P3R, Q5S, T8U, V13W, _____",
+    "choices": [
+      "A) X21Y",
+      "B) X20Y",
+      "C) Y21Z",
+      "D) Y20Z"
+    ],
+    "expected_answer": "A",
+    "generated_answer": "To solve the problem, let's break down the pattern step by step.\n\nFirstly, observe how letters and numbers progress from one term to another.\n- **P** -> **Q**, then skip 4 letters (to R), so next is S; hence we have a progression of skipping two letters between terms for the first letter.\n- The number increases sequentially but not linearly based on some",
+    "generation_time": 1.6993935108184814,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 27,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the son of my father\u2019s only sibling.\u201d How is Rajesh related to him?",
+    "choices": [
+      "A) Uncle",
+      "B) Nephew",
+      "C) Brother",
+      "D) Cousin"
+    ],
+    "expected_answer": "C",
+    "generated_answer": "To solve this problem, let's break down what Rajesh has said and analyze it step by step.\n\nRajesh states that \"he\" (the person being referred to) is the \"son of my [father]'s only sibling.\"\n\n- If we assume Rajesh refers to someone as \"my,\" then he must be talking about himself or another individual.\n- The phrase \"only sibling\"",
+    "generation_time": 1.7010111808776855,
+    "is_correct": false,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 28,
+    "topic": "Mixed Series (Alphanumeric)",
+    "question": "AB2, CD4, EF8, GH16, _____",
+    "choices": [
+      "A) IA32",
+      "B) IH32",
+      "C) IG32",
+      "D) II32"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "To solve the sequence problem \"AB2,_CD4,EF8,GH16,__\", let's break it down step-by-step.\n\n### Step 1: Identify Patterns for Letters and Numbers Separately\n#### Letter Pattern (First two letters):\n- A -> C -> E -> G -> ?\nThe first letter follows a pattern where every next character is +2 positions ahead on the alphabet.\n",
+    "generation_time": 1.6943485736846924,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 29,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the brother of my mother\u2019s only daughter.\u201d How is Rajesh related to the man?",
+    "choices": [
+      "A) Nephew",
+      "B) Son",
+      "C) Brother",
+      "D) Cousin"
+    ],
+    "expected_answer": "C",
+    "generated_answer": "Let's break down the statement given by Rajesh step-by-step.\n\nRajesh says \"he is the **brother** of my **mother\u2019s only\u5973\u513f\u5728\u8fd9\u79cd\u60c5\u51b5\u4e0b\u7684\u610f\u601d\u662f\u201c\u6bcd\u4eb2\u7684\u552f\u4e00\u5973\u513f\u201d\uff0c\u6839\u636e\u4e0a\u4e0b\u6587\uff0c\u6211\u4eec\u77e5\u9053\u8fd9\u662f\u6307\u7684\u6bcd\u4eb2\u552f\u4e00\u7684\u5973\u513f\u4e5f\u5c31\u662f\u4ed6\u81ea\u5df1\u6bcd\u4eb2\u3002\u6240\u4ee5\u8fd9\u53e5\u8bdd\u7684\u610f\u601d\u662f\uff1a\u201c\u4ed6\u662f\u6211\u5988\u5988\uff08\u5373\u4ed6\u81ea\u5df1\u7684\u6bcd\u4eb2\uff09\u7684\u5144\u5f1f\u3002\u201d\n\n\u56e0\u6b64\uff0c\u201c\u4ed6\u201d\u6307\u7684\u662f\u4ed6\u7684",
+    "generation_time": 1.7164466381072998,
+    "is_correct": false,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 30,
+    "topic": "Seating Arrangements (Linear, Circular)",
+    "question": "In a circular table, six friends A, B, C, D, E, F sit clockwise. A sits between B and C, D is two seats away from E, and F is directly opposite C. If they rearrange such that each person moves two seats clockwise, who will be seated to the immediate left of the person originally opposite A?",
+    "choices": [
+      "A) B",
+      "B) C",
+      "C) D",
+      "D) E"
+    ],
+    "expected_answer": "A",
+    "generated_answer": "To solve this problem, we need to first determine the initial seating arrangement based on the given conditions.\n\n### Initial Arrangement Analysis\n- **Condition 1:** \"A sits between \\( B \\) and \\( C \\).\"\n    - This means either \\( BAC \\) or \\( CAB \\).\n\n- **Conditions 2 & 3:**\n   - \"F is directly across (op",
+    "generation_time": 1.707474708557129,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 31,
+    "topic": "Seating Arrangements (Linear, Circular)",
+    "question": "In a circular arrangement, five friends A, B, C, D, E face center. A is between B and C. D is to the immediate left of E. If B swaps places with E, who will be third to the right of the person now opposite A?",
+    "choices": [
+      "A) C",
+      "B) D",
+      "C) B",
+      "D) A"
+    ],
+    "expected_answer": "D",
+    "generated_answer": "Firstly, let's establish the initial seating positions based on the given conditions.\n\n- Five people (A, B,C,D,E) sit around a circle facing towards its center.\n- A sits between B & C i.e., one possible order could be BCAD or CBAD but since there\u2019s no specific mention which side B or C is sitting relative to A we can assume without loss of gener",
+    "generation_time": 1.7181761264801025,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 32,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the son of my mother\u2019s only sibling.\u201d How is Rajesh related to the person he is referring to?",
+    "choices": [
+      "A) Nephew",
+      "B) Brother",
+      "C) Cousin",
+      "D) Uncle"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "To solve this problem, let's break down what Rajesh said step by step.\n\nRajesh states that \"he\" (the person being referred to) is \"the son of his mother's only sibling.\"\n\n- First part: The person mentioned (\"he\") is a child.\n  - Specifically, this child is described as someone whose parent is Rajish's maternal aunt or uncle because it refers",
+    "generation_time": 1.7277381420135498,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 33,
+    "topic": "Seating Arrangements (Linear, Circular)",
+    "question": "In a circular table, six friends A, B, C, D, E, F sit clockwise. A sits between B and C. D is two seats away from E, who is to the immediate right of F. If they rearrange such that each person moves two seats clockwise, who will be sitting to the immediate left of C?",
+    "choices": [
+      "A) B",
+      "B) D",
+      "C) F",
+      "D) E"
+    ],
+    "expected_answer": "C",
+    "generated_answer": "To solve this problem, we need to first determine the initial seating arrangement based on the given conditions.\n\nGiven Conditions:\n- Six people (A, B,C,D,E,F) sit around a circular roundtable.\n- A sits immediately between B & C.\n- D is 2 seats away (in either direction) from E.\n- E is immediately to the right of (i.e., next seat",
+    "generation_time": 1.7266149520874023,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 34,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the brother of my mother\u2019s only child.\u201d How is Rajesh related to the man?",
+    "choices": [
+      "A) Son",
+      "B) Nephew",
+      "C) Brother",
+      "D) Cousin"
+    ],
+    "expected_answer": "C",
+    "generated_answer": "To solve this problem, let's break down what Rajesh said and analyze it step-by-step.\n\nRajesh states that \"he\" (the subject being referred to as 'he') is the **brother** of his mother's *only* child.\n- The phrase \"mother's only child\" means there can be no other siblings for this particular individual.\n  \nSince Rajesh refers to",
+    "generation_time": 1.7142918109893799,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 35,
+    "topic": "Seating Arrangements (Linear, Circular)",
+    "question": "Five friends A, B, C, D, E sit in a circle facing center. A sits between B and C. D is two seats away from A clockwise. E is directly opposite C. If they rearrange such that each person moves two seats clockwise, who will be seated to the immediate left of the person originally opposite A?",
+    "choices": [
+      "A) B",
+      "B) C",
+      "C) D",
+      "D) E"
+    ],
+    "expected_answer": "A",
+    "generated_answer": "First, let's determine the initial seating arrangement based on the given conditions.\n\n- **Condition 1:** \"Five friends A,B,C,D,E sit in circle facing centre.\"\nThis means there are five positions around a circular table where everyone faces towards the middle.\n  \n- **Initial Position Analysis:**\n    - **\"A sits between** B and **C.\"**\n      This implies we have either",
+    "generation_time": 1.7247300148010254,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 36,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the only son of my mother\u2019s only daughter.\u201d How is Rajesh related to him?",
+    "choices": [
+      "A) Uncle",
+      "B) Nephew",
+      "C) Brother",
+      "D) Cousin"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Let's analyze the statement given by Rajesh step-by-step.\n\nRajesh states that \"he\" (the person being referred to as 'he' here) is the **only** son of his mother's **only daughter**.\n- This means Rajesh has a sister who is also his mother\u2019s daughter and she has one child, which makes her the sole parent for someone described as \"",
+    "generation_time": 1.722809076309204,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 37,
+    "topic": "Syllogisms",
+    "question": "Statement I: All books are pens\nStatement II: Some pens are pencils\nStatement III: No pencil is a ruler\nConclusions I: Some rulers are books\nConclusion II: Some books are pencils",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "D",
+    "generated_answer": "Let's analyze the statements and conclusions step-by-step.\n\n**Statements:**\n- **I:** All books (B) are pens (P). This means every book is also a pen.\n  - B \u2286 P\n- **II:** Some pens (from statement I, these could be some of those that might include books or others) are pencils (Q).\n  - There exists at least",
+    "generation_time": 1.7489187717437744,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 38,
+    "topic": "Syllogisms",
+    "question": "Statement I: All books are pens\nStatement II: Some pens are pencils\nStatement III: No pencil is a ruler\nConclusions I: Some rulers are books\nConclusion II: Some books are pencils",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Let's analyze the given statements and conclusions step by step.\n\n**Statements:**\n- **I:** All books (Books \u2286 Pens)\n- **II:** Some pens (Pens \u2229 Pencils \u2260 \u00d8, meaning there exists some overlap between pens and pencils but not necessarily all or even most of them being part of either set).\n- **III:** No pencil (Pencil \u2229",
+    "generation_time": 1.7242672443389893,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 39,
+    "topic": "Seating Arrangements (Linear, Circular)",
+    "question": "In a circular arrangement, five students A, B, C, D, E face center. A is between B and C, D is opposite E. If A and E swap places, who is now third to the right of the person originally opposite B?",
+    "choices": [
+      "A) C",
+      "B) D",
+      "C) E",
+      "D) B"
+    ],
+    "expected_answer": "C",
+    "generated_answer": "Let's start by visualizing the initial seating arrangement based on the given conditions.\n\nSince there are 5 people arranged in a circle facing inward (center), we can denote their positions as follows with respect to one another:\n\n- **Initial Arrangement**:\n    - Let\u2019s place student B first.\n        - Since A must be immediately next to both B and someone else, let's say A sits",
+    "generation_time": 1.742548942565918,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 40,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the son of my mother\u2019s only sibling.\u201d How is Rajesh related to the person he is referring to?",
+    "choices": [
+      "A) Nephew",
+      "B) Brother",
+      "C) Cousin",
+      "D) Uncle"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "To solve this problem, let's break down the relationship described by Rajesh.\n\nRajesh states that \"he\" (the person being referred to) is \"the son of his mother's only sibling.\"\n\n- If Rajesh's mother has a sister or brother who is her only sibling, then they would be cousins.\n- The term \"son of my\u6bcd\u4eb2\u7684\u552f\u4e00\u5144\u5f1f\u59d0\u59b9\" means the",
+    "generation_time": 1.7327430248260498,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 41,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the only son of my mother\u2019s only daughter.\u201d How is Rajesh related to the man?",
+    "choices": [
+      "A) Nephew",
+      "B) Son",
+      "C) Cousin",
+      "D) Uncle"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Let's analyze the statement and choices step by step.\n\nRajesh states that \"he is the **only** son of his mother's **only daughter.\"**\n\n- This means Rajesh has a sister (his mother's only daughter).\n- The person being referred to as 'the man' must be someone who relates to Rajesh through his sister.\n  \nGiven these points, let us evaluate each",
+    "generation_time": 1.7403132915496826,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 42,
+    "topic": "Seating Arrangements (Linear, Circular)",
+    "question": "Five friends A, B, C, D, E sit in a circle facing center. A sits between B and C. D is two seats away from A clockwise. E is directly opposite C. If they rearrange such that each moves two seats clockwise, who will be seated between B and E?",
+    "choices": [
+      "A) C",
+      "B) D",
+      "C) A",
+      "D) B"
+    ],
+    "expected_answer": "D",
+    "generated_answer": "Let's start by determining the initial seating arrangement based on the given conditions.\n\n- **Condition 1:** \"Five friends A,B,C,D,E sit in circle facing centre.\"\n  \nSince it\u2019s a circular setup with five people, we can label their positions as follows (clockwise):\n\\[ \\text{Position 1}, \\textbf{\\textit{P}}_{\\text{osition}",
+    "generation_time": 1.7213537693023682,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 43,
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the only son of my mother\u2019s only daughter.\u201d How is Rajesh related to him?",
+    "choices": [
+      "A) Uncle",
+      "B) Nephew",
+      "C) Brother",
+      "D) Cousin"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Let's break down the statement given by Rajesh step-by-step.\n\nRajesh states that \"he\" (the person being referred to as 'him') is his mother's only daughter's only son.\n- This means Rajesh has a sister who is his **mother's** only daughter.\n- Since he refers to someone else as her (\"his mother\") only daughter, it indicates there is",
+    "generation_time": 1.7144982814788818,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 44,
+    "topic": "Syllogisms",
+    "question": "Statement I: All buses are trains\nStatement II: Some trains are cars\nStatement III: All cars are trucks\nConclusions I: Some trucks are buses\nConclusion II: Some trains are trucks",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusions I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Let's analyze the statements step by step.\n\n**Statements given:**\n- **I:** All buses (B) are trains (T). This can be written as \\( B \\subseteq T \\).\n- **II:** Some trains (some elements of set T) are cars (C). We cannot write a strict subset relation here, but we know there is some overlap between sets T and C.\n",
+    "generation_time": 1.7200324535369873,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 45,
+    "topic": "Seating Arrangements (Linear, Circular)",
+    "question": "Five friends A, B, C, D, E sit in a circle facing center. A sits between B and C. D is two seats away from A clockwise. E is directly opposite B. If they rearrange such that each person moves two seats clockwise, who will be seated to the immediate left of C?",
+    "choices": [
+      "A) B",
+      "B) D",
+      "C) E",
+      "D) A"
+    ],
+    "expected_answer": "D",
+    "generated_answer": "Let's analyze the initial seating arrangement step by step.\n\nFirstly, we know that five people (A, B,C,D,E) are sitting around a circular table with everyone facing towards the center.\n- **Condition 1:** \"A sits between \\( B \\) and \\( C \\).\"\nThis means one possible order for these three individuals could be either \\( BAC \\) or \\( CAB",
+    "generation_time": 1.7302029132843018,
+    "is_correct": true,
+    "within_time_limit": true
+  },
+  {
+    "question_id": 46,
+    "topic": "Seating Arrangements (Linear, Circular)",
+    "question": "In a circular table, six friends A, B, C, D, E, F sit clockwise. A sits between B and C. D is two seats away from E clockwise. F is not next to A. If they rearrange such that each person moves two seats clockwise, who will be seated between A and B?",
+    "choices": [
+      "A) C",
+      "B) D",
+      "C) E",
+      "D) F"
+    ],
+    "expected_answer": "B",
+    "generated_answer": "Firstly, let's analyze the initial seating arrangement based on the given conditions.\n\n- **Condition 1:** \"A sits between \\( B \\) and \\( C \\).\"\n    - This means if we list them as \\( ... , X, Y, Z, W, V, U, ... \\), then one possible order could start with \\( ..., Y, A, Z,...\\).\n\n",
+    "generation_time": 1.716062068939209,
+    "is_correct": true,
+    "within_time_limit": true
+  }
+]

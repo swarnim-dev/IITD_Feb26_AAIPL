@@ -1,0 +1,122 @@
+[
+  {
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the son of my mother\u2019s only sibling.\u201d How is Rajesh related to the person he is referring to?",
+    "choices": [
+      "A) Uncle",
+      "B) Nephew",
+      "C) Cousin",
+      "D) Brother"
+    ],
+    "answer": "B",
+    "explanation": "Rajesh's mother's only sibling is his aunt. The son of Rajesh's aunt is his nephew. Therefore, Rajesh is the uncle of the person he is referring to."
+  },
+  {
+    "topic": "Syllogisms",
+    "question": "Statement I: Some grandparents are uncles\nStatement II: All uncles are cousins\nStatement III: Some cousins are aunts\nConclusion I: Some aunts are uncles\nConclusion II: Some cousins are grandparents",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "answer": "C",
+    "explanation": "Some uncles are cousins, and some aunts are cousins, making some aunts potentially uncles. Grandparents and cousins have no direct link."
+  },
+  {
+    "topic": "Syllogisms",
+    "question": "Statement I: Some grandparents are uncles\nStatement II: All uncles are cousins\nStatement III: Some cousins are aunts\nConclusion I: Some aunts are uncles\nConclusion II: Some cousins are grandparents",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "answer": "B",
+    "explanation": "Some grandparents being uncles does not imply some cousins are grandparents. Some aunts being uncles is not supported."
+  },
+  {
+    "topic": "Syllogisms",
+    "question": "Statement I: All grandparents are parents\nStatement II: Some parents are children\nStatement III: All children are siblings\nConclusions I: Some siblings are grandparents\nConclusion II: Some parents are siblings",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "answer": "B",
+    "explanation": "Parents can be siblings, but no direct link shows siblings as grandparents."
+  },
+  {
+    "topic": "Syllogisms",
+    "question": "Statement I: All grandfathers are fathers\nStatement II: Some fathers are uncles\nStatement III: No uncle is a grandfather\nConclusion I: Some fathers are not grandfathers\nConclusion II: Some grandfathers are uncles",
+    "choices": [
+      "A) If only conclusion I follows",
+      "B) If only conclusion II follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "answer": "D",
+    "explanation": "From Statement I, all grandfathers are fathers, but no uncle is a grandfather (Statement III). Thus, Conclusion II is false. Conclusion I is not necessarily true since some fathers could still be grandfathers."
+  },
+  {
+    "topic": "Family tree logic",
+    "question": "Rajesh says, \u201cHe is the son of my father\u2019s only sibling.\u201d How is Rajesh related to the person he is referring to?",
+    "choices": [
+      "A) Brother",
+      "B) Nephew",
+      "C) Cousin",
+      "D) Uncle"
+    ],
+    "answer": "C",
+    "explanation": "Rajesh's father has only one sibling, making them either an uncle or aunt. The son of this sibling is Rajesh's cousin."
+  },
+  {
+    "topic": "Seating Arrangements (Linear, Circular)",
+    "question": "At a birthday party, 5 friends sit around a round table: Alice, Bob, Carol, Dave, Eve. Alice sits next to both Bob and Carol. Dave is not next to Eve. If they rearrange so that each person moves one seat clockwise, who ends up next to Eve?",
+    "choices": [
+      "A) Bob",
+      "B) Carol",
+      "C) Dave",
+      "D) Alice"
+    ],
+    "answer": "B",
+    "explanation": "Alice sits between Bob and Carol, making Bob and Carol neighbors. Dave is not next to Eve, placing Eve between Dave and Alice. Moving one seat clockwise places Carol next to Eve."
+  },
+  {
+    "topic": "Syllogisms",
+    "question": "Statement I: All dogs are cats\nStatement II: Some cats are birds\nStatement III: All birds are fish\nConclusions I: Some fish are dogs\nConclusion II: Some cats are fish",
+    "choices": [
+      "A) If only conclusion II follows",
+      "B) If only conclusion I follows",
+      "C) If conclusion I and II both follow",
+      "D) If neither conclusion I nor conclusion II follows"
+    ],
+    "answer": "A",
+    "explanation": "Since all birds are fish and some cats are birds, some cats are fish. No direct link shows fish are dogs."
+  },
+  {
+    "topic": "Seating Arrangements (Linear, Circular)",
+    "question": "At a birthday party, 5 friends sit in a circle: Alice, Bob, Carol, Dave, Eve. Alice sits next to Bob and Dave. Carol is between two people neither of whom is Bob. Eve is not next to Carol. Who is sitting to the immediate right of Bob?",
+    "choices": [
+      "A) Alice",
+      "B) Dave",
+      "C) Carol",
+      "D) Eve"
+    ],
+    "answer": "B",
+    "explanation": "Alice sits next to Bob and Dave. Carol is between Dave and Eve. Eve is not next to Carol, placing Eve next to Alice. Thus, Dave is to the immediate right of Bob."
+  },
+  {
+    "topic": "Seating Arrangements (Linear, Circular)",
+    "question": "At a birthday party, six friends A, B, C, D, E, F sit around a circular table. A sits opposite B, C is between D and E, F is to the immediate left of A. If C and F swap places, who is now to the immediate right of B?",
+    "choices": [
+      "A) D",
+      "B) E",
+      "C) C",
+      "D) F"
+    ],
+    "answer": "B",
+    "explanation": "Initial arrangement: A-F-C-D-E-B. After swap, A-D-C-F-E-B. B's immediate right is E."
+  }
+]

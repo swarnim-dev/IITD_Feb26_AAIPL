@@ -1,0 +1,30 @@
+[
+  {
+    "config_name": "1_fastest",
+    "name": "Fastest (Current)",
+    "accuracy": 80.0,
+    "avg_time": 1.664295744895935,
+    "within_time_pct": 90.0
+  },
+  {
+    "config_name": "2_balanced",
+    "name": "Balanced Speed/Accuracy",
+    "accuracy": 100.0,
+    "avg_time": 1.6753812313079834,
+    "within_time_pct": 100.0
+  },
+  {
+    "config_name": "3_accurate",
+    "name": "Maximum Accuracy",
+    "accuracy": 100.0,
+    "avg_time": 2.952173924446106,
+    "within_time_pct": 100.0
+  },
+  {
+    "config_name": "4_smart",
+    "name": "Smart Greedy (Fast + Better Prompt)",
+    "accuracy": 100.0,
+    "avg_time": 1.922297763824463,
+    "within_time_pct": 100.0
+  }
+]

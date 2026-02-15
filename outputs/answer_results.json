@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Statement I: All cats are dogs\nStatement II: Some dogs are birds\nStatement III: No bird is a fish\nConclusions I: Some cats are birds\nConclusion II: Some dogs being fish is a possibility",
+    "expected": "D",
+    "generated": "Answer: D | Reason: None fit statements.",
+    "time": 14.381556510925293,
+    "correct": true
+  },
+  {
+    "question": "Rajesh says, \u201cHe is the brother of my father\u2019s only daughter.\u201d How is Rajesh related to him?",
+    "expected": "B",
+    "generated": "Answer: C | Reason: Same father siblings.",
+    "time": 0.21035242080688477,
+    "correct": true
+  },
+  {
+    "question": "Statement I: All books are pens\nStatement II: Some pens are pencils\nStatement III: No pencil is a notebook\nConclusions I: Some notebooks are not books\nConclusion II: Some books are pencils",
+    "expected": "C",
+    "generated": "Answer: A | Reason: Only I logically fits.",
+    "time": 0.23602771759033203,
+    "correct": true
+  },
+  {
+    "question": "Statement I: All cats are dogs\nStatement II: Some dogs are birds\nStatement III: All birds are fish\nConclusions I: Some fish are cats\nConclusion II: Some dogs are fish",
+    "expected": "B",
+    "generated": "Answer: B | Reason: Only II logically follows.",
+    "time": 0.2323136329650879,
+    "correct": true
+  },
+  {
+    "question": "In a circular market, five vendors A, B, C, D, E sell fruits. A sells apples, B sells bananas, C sells cherries, D sells dates, E sells elderberries. A faces B, B faces C, C faces D, D faces E, E faces A. If A swaps places with the vendor selling dates, who will be to the immediate right of the new position of A?",
+    "expected": "D",
+    "generated": "Answer: C | Reason: Faces original C\u4f4d\u7f6e\u3002",
+    "time": 0.23684978485107422,
+    "correct": false
+  }
+]

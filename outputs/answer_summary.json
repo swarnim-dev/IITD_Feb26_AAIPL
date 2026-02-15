@@ -1,0 +1,31 @@
+{
+  "total_questions": 46,
+  "correct_answers": 44,
+  "accuracy_percentage": 95.65,
+  "within_time_limit": 45,
+  "time_compliance_percentage": 97.83,
+  "average_time_seconds": 2.02,
+  "total_processing_minutes": 1.55,
+  "topic_breakdown": {
+    "Family tree logic": {
+      "total": 15,
+      "correct": 13,
+      "accuracy": 86.67
+    },
+    "Mixed Series (Alphanumeric)": {
+      "total": 11,
+      "correct": 11,
+      "accuracy": 100.0
+    },
+    "Syllogisms": {
+      "total": 12,
+      "correct": 12,
+      "accuracy": 100.0
+    },
+    "Seating Arrangements (Linear, Circular)": {
+      "total": 8,
+      "correct": 8,
+      "accuracy": 100.0
+    }
+  }
+}
